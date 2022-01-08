@@ -204,7 +204,7 @@ class JoyCon extends EventTarget {
 
   /**
    * Enables vibration.
-   *
+   * 启用震动
    * @memberof JoyCon
    */
   async enableVibration() {

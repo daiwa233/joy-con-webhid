@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 const connectJoyCon = async () => {
   // Filter on devices with the Nintendo Switch Joy-Con USB Vendor/Product IDs.
+  // 这些 ID 去哪获得呢？
   const filters = [
     {
       vendorId: 0x057e, // Nintendo Co., Ltd
